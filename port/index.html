@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">PORT<span>FOLI</span>O</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <!-- Home -->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'm Nikunj <br><span class="home__title-color">Website Designer.</span></h1>
+        <a href="#contact" class="button">Contact</a>
+      </div>
+      <div class="home__social">
+        
+      </div>
+      <div class="home__img">
+        <img src="about1.jpeg" alt="">
+      </div>
+      </section>
+      <!-- About -->
+      <section class="about__section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="background1.jpeg" alt="">
+          </div>
+          <div>
+            <h2 class="about__subtitle">I am Website Designer!</h2>
+            <p class="about__text">I am a person with great passion a true free spirit. I'm a website Designer - creating bold & brave interface design for compaines. Skilled in Node.js | Html5 | Css3 | Javascript | MongoDb Database | C Language | C++ | Java Programming | Bootstrap | Full stack developer | Frontend Designer ...</p>           
+            </div>    
+        </div>
+      </section>
+      <!-- Skills i have -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        
+        <div class="skills__container bd-grid">          
+        <div>
+        <h2 class="skills__subtitle">Profesional Skills</h2>
+        <p class="skills__text">Node.js | Html5 | Css3 | Javascript | MongoDb Database | C Language | C++ | Java Programming | Bootstrap | Full stack developer | Frontend Designer.</p>
+        <div class="skills__data">
+        <div class="skills__names">
+        <i class='bx bxl-html5 skills__icon'></i>
+        <span class="skills__name">HTML5</span>
+        </div>
+        <div class="skills__bar skills__html">
+        </div>
+        <div>
+        <span class="skills__percentage">70%</span>
+        </div>
+        </div>
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxl-css3 skills__icon'></i>
+                <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css">
+            </div>
+            <div>
+                <span class="skills__percentage">65%</span>
+            </div>
+        </div>
+        <div class="skills__data">
+            <div class="skills__names">
+        <i class='bx bxl-javascript skills__icon' ></i>
+        <span class="skills__name">JAVASCRIPT</span>
+        </div>
+        <div class="skills__bar skills__js">
+        </div>
+        <div>
+        <span class="skills__percentage">45%</span>
+        </div>
+        </div>
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxs-paint skills__icon'></i>
+                <span class="skills__name">SQL</span>
+            </div>
+            <div class="skills__bar skills__ux">
+            </div>
+            <div>
+                <span class="skills__percentage">60%</span>
+            </div>
+        </div>
+        </div>
+                            
+        <div>              
+        <img src="coding.jpg" alt="" class="skills__img">
+        </div>
+        </div>
+      </section>
+      <!-- Work that i can -->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="work__container "> 
+          <!-- bd-grid in work container to show in 2 rows -->
+          <div class="work__img">
+            <img src="html.png" alt="">
+          </div>
+          <div class="work__img">
+            <img src="css.webp" alt="">
+          </div>
+          <div class="work__img">
+            <img src="java.jpeg" alt="">
+          </div>
+          <div class="work__img">
+            <img src="js.png" alt="">
+          </div>
+        <div class="work__img">
+          <img src="python.png" alt="">
+        </div>          
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        
+        <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+        <input type="text" placeholder="Name" class="contact__input">
+        <input type="mail" placeholder="Email" class="contact__input">
+        <input type="number" placeholder="Mobile Number" class="contact__input">
+        <textarea placeholder="Work" name="" id="" cols="0" rows="5" class="contact__input"></textarea>
+        <input type="button" value="Send Message" class="contact__button button">
+        </form>
+        </div>
+      </section>
+    </main>
+      <!-- Footer -->
+      <footer class="footer">
+        <p class="footer__title">Nikunj - Web<span>site Design</span>er</p>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/nikunj.kantariya.28" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+          <a href="https://www.instagram.com/nikunj_kantariya13/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+          <a href="https://twitter.com/KantariyaNik13" target="_blank" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+          <a href="https://www.linkedin.com/in/nikunj-kantariya-0181b32a6/" target="_blank" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Nikunjkantariya" target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
+        </div>
+  </body>
+</html>
